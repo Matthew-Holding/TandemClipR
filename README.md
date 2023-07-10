@@ -202,6 +202,7 @@ write.table(cbind(chr,start,end), file = paste0(gffpath,genefam[g],"/",df$versio
 
 
 ### Calculate genome stats with bedtools
+Run in command-line with bedtools and awk installed
 
 ```
 ####################################################################################################################
